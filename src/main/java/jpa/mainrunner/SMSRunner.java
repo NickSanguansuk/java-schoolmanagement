@@ -95,7 +95,7 @@ public class SMSRunner {
 
         if (currentStudent != null & currentStudent.getPass().equals(password)) {
             List<Course> courses = studentService.getStudentCourses(email);
-            System.out.println("MyClasses");
+            System.out.println("My Classes");
             for (Course course : courses) {
                 System.out.println(course);
             }
